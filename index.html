@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main class="coming-soon">
+      <header class="container">
+        <img src="./images/logo.svg" alt="Logo" class="logo" />
+      </header>
+
+      <div class="coming-soon-content">
+        <figure class="coming-soon-image"></figure>
+        <article class="coming-soon-article container">
+          <h1 class="coming-soon-headline"><span>We're</span> coming soon</h1>
+          <p class="coming-soon-text">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+
+          <form class="coming-soon-form">
+            <div class="form-control">
+              <input
+                type="email"
+                class="email-input"
+                placeholder="Email Address"
+              />
+              <img src="./images/icon-error.svg" alt="" class="error-icon" />
+              <small class="notification">Error message</small>
+            </div>
+            <button class="coming-soon-btn" type="submit">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </form>
+        </article>
+      </div>
+    </main>
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/rikiwgarna/coming-soon-page">Riki Garna</a>.
+      </p>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
